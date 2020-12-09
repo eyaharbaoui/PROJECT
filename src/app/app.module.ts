@@ -11,13 +11,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Comp1Component } from './comp1/comp1.component';
 import { LoginComponent } from './login/login.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { HeaderComponent } from './header/header.component';
+import { PostListComponent } from './post-list/post-list.component';
+import { SignupComponent } from './signup/signup.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
-  declarations: [AppComponent, Comp1Component, LoginComponent, PostCreateComponent, HeaderComponent],
+  declarations: [AppComponent, SignupComponent, LoginComponent, PostCreateComponent, HeaderComponent, PostListComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
